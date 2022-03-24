@@ -1,0 +1,15 @@
+{
+  "name": "monorepo",
+  "packageManager": "yarn@3.2.0",
+  "devDependencies": {
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.2"
+  },
+  "workspaces": [
+    "frontend/*",
+    "tools/*"
+  ],
+  "scripts": {
+    "run:script": "ts-node ${0}"
+  }
+}
